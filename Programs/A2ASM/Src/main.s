@@ -38,11 +38,11 @@ main
     mov     R5, #0xfeaf
     strh    R5,[R0]         ; Anw08
     
-;* Change value from x1234 to x4321
+;* Change value from x1234 to x3412
     ldr     R1,=VariableB   ; Anw09
-    ;ldrh    R6,[R1]         ; Anw0A
-    mov     R6, #0x3412   ; Anw0B
-    ;add     R6, R6, R7      ; Anw0C
+    ldrh    R6,[R1]         ; Anw0A
+    mov     R7, #0x21DE   ; Anw0B
+    add     R6, R6, R7      ; Anw0C
     strh    R6,[R1]         ; Anw0D
     b .                     ; Anw0E
     
