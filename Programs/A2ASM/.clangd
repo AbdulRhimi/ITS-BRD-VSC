@@ -1,0 +1,11 @@
+CompileFlags:
+  CompilationDatabase: >-
+    c:\Users\aksra\Desktop\Github
+    Clone\ITS-BRD-VSC\Programs\A2ASM\out\A2ASM\ITSboard_Assembly\Debug
+  Add:
+    - '-D__ARMCOMPILER_LIBCXX=1'
+    - '-I"C:/Users/aksra/Desktop/Github'
+    - >-
+      -IC:/Users/aksra/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+    - >-
+      -IC:/Users/aksra/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include

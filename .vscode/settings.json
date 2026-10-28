@@ -117,7 +117,11 @@
   "cmake.ignoreCMakeListsMissing": true,
   "C_Cpp_Runner.msvcBatchPath": "",
   "clangd.arguments": [
+<<<<<<< HEAD
     "--compile-commands-dir=c:\\Users\\aksra\\OneDrive\\Desktop\\Neuer Ordner\\Uni Materialien\\repo\\ITS-BRD-VSC\\Programs\\A1ASM\\out\\A1ASM\\ITSboard_Assembly\\Debug"
+=======
+    "--compile-commands-dir=c:\\Users\\aksra\\Desktop\\Github Clone\\ITS-BRD-VSC\\Programs\\A3ASM\\out\\A3ASM\\ITSboard_Assembly\\Debug"
+>>>>>>> f3857d105cb2666cf91dc7a448a0f125d8284257
   ],
   "debug.hideSlowPreLaunchWarning": true,
   "debug.showInStatusBar": "never",
